@@ -1,13 +1,15 @@
 <template>
   <div id="app">
-    <router-link :to="{name:'Test'}" tag="li">测试</router-link>
     <router-view/>
+    <footer-index></footer-index>
   </div>
 </template>
 
 <script>
+	import footerIndex from "./components/footer/Footer"
 export default {
-  name: 'App'
+  name: 'App',
+	components:{footerIndex}
 }
 </script>
 
