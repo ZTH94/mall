@@ -1,13 +1,22 @@
 <template>
   <div id="app">
-    <router-link :to="{name:'Test'}" tag="li">测试</router-link>
-    <router-view/>
+    <Header></Header>
+    <News></News>
+    <Commodity></Commodity>
   </div>
 </template>
 
 <script>
+import Header from './components/Header/header'
+import Commodity from './page/Commodity/commodity'
+import News from './page/News/news'
 export default {
-  name: 'App'
+  name: 'App',
+  components:{
+    Header,
+    Commodity,
+    News
+  }
 }
 </script>
 
