@@ -51,8 +51,8 @@ export default {
             background: white;        
             border: 2px solid #f4f4f4;
             img{
-            width: 50px;
-            height: 80px;
+            width: 100%;
+            height: 100%;
             }
             .comname{
                 font-size: 15px;         
