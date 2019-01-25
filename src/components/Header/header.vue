@@ -25,11 +25,16 @@ export default {
 .header {
     width: 100%;
     height: 50px;
+    border-bottom: 1px solid #ccc;
+    position: fixed;
+    top:0;
+    z-index: 999;
+    background: #fff;
     .head{
         width: 100%;
         display: flex;
         padding:  10px 0;
-        border-bottom: 1px solid #ccc;
+
         .headonebox {
             flex: 4;
             display: flex;

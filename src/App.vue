@@ -3,19 +3,25 @@
     <Header></Header>
     <News></News>
     <Commodity></Commodity>
+    <Find></Find>
+    <Article></Article>
   </div>
 </template>
 
 <script>
-import Header from './components/Header/header'
-import Commodity from './page/Commodity/commodity'
+import Header from './components/header/Header'
+import Commodity from './page/commodity/Commodity'
 import News from './page/News/news'
+import Find from './page/find/Find'
+import Article from './page/article/Article'
 export default {
   name: 'App',
   components:{
     Header,
     Commodity,
-    News
+    News,
+    Find,
+    Article
   }
 }
 </script>

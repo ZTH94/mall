@@ -3,7 +3,7 @@
         <div class="title">{{thenew}}</div>
         <div class="title-border"></div>
         <el-row>
-            <el-col :span="12"><img src="../../../static/images/Chestpack.jpg" alt=""></el-col>
+            <el-col :span="12"><img src="../../../static/img/Chestpack.jpg" alt=""></el-col>
             <el-col :span="12">
                 <div class="Recommendbox red">
                     <h4>魅蓝胸包</h4>
@@ -23,7 +23,7 @@
                     <div class="newprice">￥169</div>
                 </div>
             </el-col>
-            <el-col :span="12"><img src="../../../static/images/Travellingbag.jpg" alt=""></el-col>
+            <el-col :span="12"><img src="../../../static/img/Travellingbag.jpg" alt=""></el-col>
         </el-row>
     </div>
 </template>
