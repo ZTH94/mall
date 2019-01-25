@@ -21,7 +21,7 @@ export default {
           themusic:'影音娱乐',
           list:[
               {name:'魅蓝蓝牙音频接收器',info:'独立音频芯片音质媲美有线',price:'￥89',url:'../../../static/img/test.png'},
-              {name:'魅蓝 EP52 蓝牙耳机',info:'轻盈悦耳 动无拘束',price:'￥229',url:'../../../static/images/test.png'},
+              {name:'魅蓝 EP52 蓝牙耳机',info:'轻盈悦耳 动无拘束',price:'￥229',url:'../../../static/img/test.png'},
               {name:'魅族 EP51 蓝牙运动耳机',info:'臻享音质 自在运动',price:'￥129',url:'../../../static/img/test.png'},
               {name:'魅族 LIVE 四单元动铁耳机',info:'享12期免息',price:'￥1099',url:'../../../static/img/test.png'}
           ]
