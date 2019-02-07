@@ -21,7 +21,7 @@ export default {
 		return {
 			classType: [
 				{
-					path: { path: '/Test' },
+					path: { path: '/Login' },
 					classShow: true,
 					className: 'el-icon-phone-shouye2',
 					typeName: '首页'
@@ -45,7 +45,7 @@ export default {
 					typeName: '购物车'
 				},
 				{
-					path: { path: '/Gocar' },
+					path: { path: '/MyCenter' },
 					classShow: false,
 					className: 'el-icon-phone-wode2',
 					typeName: '我的'

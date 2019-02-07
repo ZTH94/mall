@@ -60,9 +60,14 @@ export default {
 		}
 	}
 	.view-more {
-			height: 50px;
-			line-height: 50px;
-		a{			
+		width: 100%;
+		padding-top: 20px;
+		a{		
+			display: inline-block;
+			background-color: #eee;
+			height: 35px;
+			line-height: 35px;
+			width: 100%;
 			color: red;
 		}
 	}
