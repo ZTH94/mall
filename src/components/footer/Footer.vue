@@ -21,7 +21,7 @@ export default {
 		return {
 			classType: [
 				{
-					path: { path: '/Test' },
+					path: { path: '/Login' },
 					classShow: true,
 					className: 'el-icon-phone-shouye2',
 					typeName: '首页'
@@ -33,19 +33,19 @@ export default {
 					typeName: '分类'
 				},
 				{
-					path: { path: '/Test' },
+					path: { path: '/ClassifyInfo' },
 					classShow: false,
 					className: 'el-icon-phone-faxian2',
 					typeName: '发现'
 				},
 				{
-					path: { path: '/Test' },
+					path: { path: '/GouBack' },
 					classShow: false,
 					className: 'el-icon-phone-gouwuche1',
 					typeName: '购物车'
 				},
 				{
-					path: { path: '/Test' },
+					path: { path: '/MyCenter' },
 					classShow: false,
 					className: 'el-icon-phone-wode2',
 					typeName: '我的'

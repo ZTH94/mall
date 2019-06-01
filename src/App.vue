@@ -42,11 +42,13 @@ export default {
     vertical-align: top;
     border: none;
   }
+	.clearfix{
+    clear: both;
+	}
   .clearfix:after,
   .clearfix:before{
     content: '';
     display: block;
     visibility: hidden;
-    clear: both;
   }
 </style>
